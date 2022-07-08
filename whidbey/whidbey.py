@@ -2,7 +2,6 @@
 # to run:
 # export FLASK_APP=voltageflask.py
 # flask run --host=0.0.0.0
-#
  
 from gaugeread import get_tank_level 
 from flask import Flask, jsonify
